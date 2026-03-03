@@ -1,0 +1,20 @@
+{
+  "name": "translit-service",
+  "version": "1.0.0",
+  "description": "Веб-сервис транслитерации русского текста в латиницу с историей запросов в LevelDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "transliteration",
+    "russian",
+    "leveldb"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1",
+    "level": "^10.0.0"
+  }
+}
