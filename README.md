@@ -40,7 +40,7 @@ npm start
 {"data": ["apishka", "voda"]}
 ```
 
-## Технологии
+## Технологии:
 
 - Node.js, Express
 - LevelDB (пакет `level`)
